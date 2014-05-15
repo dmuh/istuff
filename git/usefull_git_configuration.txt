@@ -1,0 +1,18 @@
+#here is a set of commands for git configuration
+#global
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git config --global core.editor notepad2
+git config --global help.autocorrect 1
+git config --global color.ui true
+git config --global core.autocrlf input
+git config --global core.pager 'less -r'
+
+#alias
+git config --global alias.com commit
+
+#local
+git config branch.master.rebase true
+git config branch.autosetuprebase always
+
